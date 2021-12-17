@@ -169,4 +169,7 @@ However, we can still come up with meaningful topics, such as Trump’s election
 
 Then, we can see with sentiment analysis that we can correlate how (positively or negatively) newspapers talk about a topic/someone with the events happening around the globe that we also found in the timelines presented above.
 
-Thank you very much for reading ! :)
+
+Thank you very much for joining us in this travel through time ! :)
+
+The ADAventurers

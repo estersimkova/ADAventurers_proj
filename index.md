@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+# Can we create an event time-line from 2015 to 2020 using only newspaper quotes ?!
 
-You can use the [editor on GitHub](https://github.com/estersimkova/ADAventurers_proj/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Thank you for visiting our website ! We, the ADAventurers, are happy to present the outcome of our project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
 
-### Markdown
+### Project context and research questions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West.
+We were provided with the [Quotebank dataset](https://zenodo.org/record/4277311#.YbntzrvTWV4), containing newspaper quotes from January 2015 to April 2020.
 
-```markdown
-Syntax highlighted code block
+### Objectives
 
-# Header 1
-## Header 2
-### Header 3
+Using this dataset, the research questions we asked ourselves were the following :
 
-- Bulleted
-- List
+1. Are newspapers’ quotes representative of events occurring in the world ? Meaning, can we deduce a time-line of important events that happened in the world during a certain time-frame only from topics emerging from newspaper quotes ?
 
-1. Numbered
-2. List
+2. When an important event occurs, does the general sentiment from newspaper quotes regarding the topic evolve ?
 
-**Bold** and _Italic_ and `Code` text
+### Methods
 
-[Link](url) and ![Image](src)
-```
+#### Finding topics from quotes
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+The Quotebank dataset provides more than 100 millions quotes over 12 years. We decided to focus on the years 2015-2020. For each of these years, we selected a maximum of 100’000 quotes each month. Then, we used the NLP (natural language processing) model [BERTopic](https://github.com/MaartenGr/BERTopic) to extract the topics and associate each quote to a specific topic with a given probability. Using the 20 monthly hottest topics, meaning the ones that have the most quotes associated with them, we looked into the associated words and the quotes associated with the topic with the most probability.
+Using this information, we chose for each month the most meaningful topics to be kept.
+Then, we created a script to visually represent the chosen topics on a time-line for every month and also for every year.
 
-### Jekyll Themes
+#### Analysing the sentiment change before and after an event
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/estersimkova/ADAventurers_proj/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To answer the second question, and so to perform sentiment analysis, we used a [fine-tuning algorithm for BERT](https://skimai.com/fine-tuning-bert-for-sentiment-analysis/), training the BERT sentiment classifier with data from Twitter - using 1700 complaining (negative sentiment) and 1700 non-complaining (positive sentiment) tweets. We then passed our quotes, previously regrouped into topics by BERTopic, into the trained BERT sentiment classifier and observed the evolution in percentage of positive vs negative quotes regarding a certain topic, before and after certain events occurred.
 
-### Support or Contact
+### Results
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+#### Time-line creation
+
+You can see here the time-line we obtained for a few chosen months and for each year. 
+
+To assess the performance of our time-line, we first compare the topics we found with the most important events that happened every year according to [Usatoday](https://eu.usatoday.com/story/money/2020/09/06/the-worlds-most-important-event-every-year-since-1920/113604790/) to see if BERTopic caught them. 
+
+These are: 
+- For 2015: July 14, Nasa flies by Pluto
+- For 2016: November 8, Trump is elected
+- For 2017: August-September: Hurricane Triple Whammy (Harvey, Irma, and Maria) devastates the US and the Caribbean
+- For 2018: November, wildfires in California
+- For 2019: March, Hong-kong protests
+- For 2020: March, COVID-19. However, we have to keep in mind that the Quotebank dataset from 2020 spans only the months of January-April.
+
+These topics can be seen to be quite US-centric. However, the newspapers from which the quotes originate in the Quotebank dataset are from Western countries and often the US, so it is quite coherent.
+
+We can see that for ….
+
+#### Sentiment analysis
+
+For the sentiment analysis regarding a particular topic before and after a certain event occurred, looking at the obtained time-line, we chose to focus on ...
+
+- Hong-kong protests in March 2019: how China is mentioned in the media
+- Opinion of Trump before and after his election in November 2019
+
+
+### Conclusion 
+
+To conclude, let’s go back to the two questions we asked ourselves in the beginning:
+
+1. Are newspapers’ quotes representative of events occurring in the world ? Meaning, can we deduce a time-line of important events that happened in the world during a certain time-frame only from topics emerging from newspaper quotes ?
+
+2. When an important event occurs, does the general sentiment from quotes regarding the topic evolve ?
+
+With the data analysis shown above, we can now answer, at least partially, these questions.
+
+First, we showed that it is very complicated to find events occurring in the world only from quotes in newspapers, even using one of the most performant NLP (natural language processing) models available now-a-days: BERT.
+However, we can still come up with meaningful topics ..
+
+Then, we can see with sentiment analysis that...
+
+
+
+Thank you very much for reading !

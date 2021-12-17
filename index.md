@@ -131,10 +131,13 @@ Regarding the newspapers’ opinion of Donald Trump, we can see a shift accordin
 
 Here for 2015 we see a small peak of popularity in September but nothing very significant.
 
-<img src="./trump-2016.jpg" width="500" />
+<img src="./trump-2016-bis.jpg" width="500" />
 
-Regarding 2016, there is a drop in Trump’s popularity in May-August, around the same time Black Lives Matter happened, which we can suppose to be correlated. Moreover, there is also an popularity peak in March 2016 which is when the Brussels islamist terrorist attacks happened. We can also speculate a correlation here.
+Regarding 2016, there is a drop in Trump’s popularity in May-August, around the same time Black Lives Matter happened, which we can suppose to be correlated. Moreover, there is also an popularity peak in March 2016 which is when the Brussels islamist terrorist attacks happened. We can also speculate a correlation here. When Trump was elected president of the United States in 2016, the newspapers began to talk more positively about him as well.
 
+<img src="./trump-2017.jpg" width="500" />
+
+2017 started with a peak in Trump's popularity since he began his functions as president of the United States January 1st 2017. However then, his popularity dropped drastically and kept decreasing.
 
 ### Conclusion
 

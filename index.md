@@ -139,6 +139,10 @@ Regarding 2016, there is a drop in Trump’s popularity in May-August, around th
 
 2017 started with a peak in Trump's popularity since he began his functions as president of the United States January 1st 2017. However then, his popularity dropped drastically and kept decreasing.
 
+<img src="./trump-2018.jpg" width="500" />
+
+2018 was not a very popular year for Trump and the newspapers talk quite negatively about him throughout the whole year.
+
 ## Conclusion
 
 To conclude, let’s go back to the two questions we asked ourselves in the beginning:

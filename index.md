@@ -1,5 +1,7 @@
 # Recreating history from newspaper quotes
 
+"I go into my Quotebank and all history unrolls before me."
+
 Thank you for visiting our website! We, the ADAventurers, are happy to present the outcome of our project.
 
 The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova

@@ -1,6 +1,6 @@
 # Can we create an event time-line from 2015 to 2020 using only newspaper quotes ?!
 
-<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="200" height="200" />
+<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="300" height="200" />
 
 Thank you for visiting our website ! We, the ADAventurers, are happy to present the outcome of our project.
 
@@ -52,7 +52,7 @@ These topics can be seen to be quite US-centric. However, the newspapers from wh
 
 We can see the time-line obtained for 2016: 
 
-<img src="./timeline-2016.jpg" width="400" />
+<img src="./timeline-2016.jpg" width="800" />
 
 
 #### Sentiment analysis

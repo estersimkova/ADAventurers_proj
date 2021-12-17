@@ -1,6 +1,6 @@
 # Recreating history from newspaper quotes
 
-"I go into my Quotebank and all history unrolls before me."
+"*I go into my Quotebank and all history unrolls before me.*"
 
 Thank you for visiting our website! We, the ADAventurers, are happy to present the outcome of our project.
 

@@ -6,12 +6,12 @@ Thank you for visiting our website! We, the ADAventurers, are happy to present t
 
 The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
 
-### Project context and research questions
+### Project context
 
 This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West. 
 We were provided with the [Quotebank dataset](https://zenodo.org/record/4277311#.YbntzrvTWV4), containing newspaper quotes from January 2015 to April 2020.
 
-### Objectives
+### Research questions
 
 Using this dataset, the research questions we asked ourselves were the following :
 
@@ -39,8 +39,8 @@ To answer the second question, and so to perform sentiment analysis, we used a [
 
 Two kinds of topics emerged from BERTopic.
 
-The topics always present in the top topics (education, sports, justice..) 
-The topics that come up sporadically, assumed to be linked to an event happening
+1. The topics always present in the top topics (education, sports, justice..) 
+2. The topics that come up sporadically, assumed to be linked to an event happening
 
 After manually sorting out the first ones, we chose to focus on the second to find meaningful events to put in our time-lines.
 

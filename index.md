@@ -121,7 +121,7 @@ The newspapers’ opinion of Trump from 2015 to 2020, especially before and afte
 
 For the sentiment analysis about China in 2019, we can see the plot obtained, with the y-axis being the percentage of quotes talking about China that are positive depending on the month:
 
-<img src="./sentiment-china.jpg" width="800" />
+<img src="./sentiment-china.jpg" width="500" />
 
 We can see that there is not much change during the Hong Kong protests as the western newspapers, where most of the quotes come from, seem to talk quite negatively about China in general (only 2-4% of quotes are positive).
 

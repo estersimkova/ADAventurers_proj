@@ -1,4 +1,4 @@
-# Creating an event time-line from 2015 to 2020 using only newspaper quotes
+## Creating an event time-line from 2015 to 2020 using only newspaper quotes
 
 Thank you for visiting our website! We, the ADAventurers, are happy to present the outcome of our project.
 

@@ -117,7 +117,7 @@ For 2020, BERTopic found many events related to COVID19: the first cases in Chin
 For the sentiment analysis regarding a particular topic before and after a certain event occurred, looking at the obtained time-line, we chose to focus on two topics:
 
 1. Hong-kong protests in March 2019: with which sentiment (positive/negative) China is mentioned in the media before and after the start of the protests. Indeed, the Chinese government expressed their opposition to the protests and took measures against the protests and their supporters.
-2. The newspapers’ opinion of Trump from 2015 to 2020, especially before and after his election in November 2016.
+2. The newspapers’ opinion of Trump from 2015 to 2019, especially before and after his election in November 2016.
 
 For the sentiment analysis about China in 2019, we can see the plot obtained, with the y-axis being the percentage of quotes talking about China that are positive depending on the month:
 
@@ -142,6 +142,11 @@ Regarding 2016, there is a drop in Trump’s popularity in May-August, around th
 <img src="./trump-2018.jpg" width="500" />
 
 2018 was not a very popular year for Trump and the newspapers talk quite negatively about him throughout the whole year.
+
+<img src="./trump-2019.jpg" width="500" />
+
+Trump's popularity continued to decrease in 2019, especially in the last few months. In December 2019, it reached a low when the Congress of the United States made an impeachement against him for abuse of power and obstruction of Congress. 
+
 
 ## Conclusion
 

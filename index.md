@@ -1,3 +1,5 @@
+<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="200" height="200" />
+
 # Can we create an event time-line from 2015 to 2020 using only newspaper quotes ?!
 
 Thank you for visiting our website ! We, the ADAventurers, are happy to present the outcome of our project.

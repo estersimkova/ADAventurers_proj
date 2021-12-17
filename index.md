@@ -76,12 +76,12 @@ Searching for other names can also give us very interesting insights about the h
 To assess the performance of the time-lines we obtained, we compare the topics we found with the most important events that happened every year according to [Usatoday](https://eu.usatoday.com/story/money/2020/09/06/the-worlds-most-important-event-every-year-since-1920/113604790/) to see if BERTopic caught them. 
 
 These are:
-For 2015: July 14, NASA flies by Pluto
-For 2016: November 8, Trump is elected
-For 2017: August-September, Hurricane Triple Whammy (Harvey, Irma, and Maria) devastates the US and the Caribbean
-For 2018: November, wildfires in California
-For 2019: March, Hong Kong protests
-For 2020: March, COVID-19. However, we have to keep in mind that the Quotebank dataset from 2020 spans only the months of January-April.
+- For 2015: July 14, NASA flies by Pluto
+- For 2016: November 8, Trump is elected
+- For 2017: August-September, Hurricane Triple Whammy (Harvey, Irma, and Maria) devastates the US and the Caribbean
+- For 2018: November, wildfires in California
+- For 2019: March, Hong Kong protests
+- For 2020: March, COVID-19. However, we have to keep in mind that the Quotebank dataset from 2020 spans only the months of January-April.
 
 These topics can be seen to be quite US-centric. However, the newspapers from which the quotes originate in the Quotebank dataset are from Western countries and often the US, so it is quite coherent.
 
@@ -89,22 +89,26 @@ You can see here the time-line we obtain for each year:
 
 <img src="./timeline-2015.jpg" width="1000" />
 
+We can see that for 2015, BERTopic didn’t find the NASA flight by Pluto, but it did find relevant topics in 2015 such as the Paris terrorist attacks in January and November, or same-sex marriage that became legal in June 2015 in the US.
+
 <img src="./timeline-2016.jpg" width="1000" />
+
+For 2016, the Trump election (as well as the vote recounts) were found by BERTopic to be very hot topics in November and December 2016. However, Black Lives Matter was found to be even more talked about in the newspaper.
 
 <img src="./timeline-2017.jpg" width="1000" />
 
+For 2017, the Hurricanes were not found to be that hot topics mentioned in the newspapers. However, some hot topics included Brexit, Obamacare repealed and more about Black Lives Matter (the kneeling during the national anthem).
+
 <img src="./timeline-2018.jpg" width="1000" />
+
+For 2018, California wildfires were not mentioned that often, but other important events emerged such as Meghan and Harry royal wedding, the Russian presidential elections or also the FIFA world cup.
 
 <img src="./timeline-2019.jpg" width="1000" />
 
+For 2019, the Hong-Kong protests were not found, but some important 2019 events were found such as the Australian bushfires in November 2019 or Trump’s medicare cuts in March 2019.
+
 <img src="./timeline-2020.jpg" width="1000" />
 
-
-We can see that for 2015, BERTopic didn’t find the NASA flight by Pluto, but it did find relevant topics in 2015 such as the Paris terrorist attacks in January and November, or same-sex marriage that became legal in June 2015 in the US.
-For 2016, the Trump election (as well as the vote recounts) were found by BERTopic to be very hot topics in November and December 2016. However, Black Lives Matter was found to be even more talked about in the newspaper.
-For 2017, the Hurricanes were not found to be that hot topics mentioned in the newspapers. However, some hot topics included Brexit, Obamacare repealed and more about Black Lives Matter (the kneeling during the national anthem).
-For 2018, California wildfires were not mentioned that often, but other important events emerged such as Meghan and Harry royal wedding, the Russian presidential elections or also the FIFA world cup.
-For 2019, the Hong-Kong protests were not found, but some important 2019 events were found such as the Australian bushfires in November 2019 or Trump’s medicare cuts in March 2019.
 For 2020, BERTopic found many events related to COVID19: the first cases in China, the start of the pandemic, the mask crisis and the quarantine. Some other events were also found such as the Australian bush fires in early 2020.
 
 

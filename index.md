@@ -125,15 +125,16 @@ For the sentiment analysis about China in 2019, we can see the plot obtained, wi
 
 We can see that there is not much change during the Hong Kong protests as the western newspapers, where most of the quotes come from, seem to talk quite negatively about China in general (only 2-4% of quotes are positive).
 
-Regarding the newspapers’ opinion of Trump, we can see a shift according to the events happening around the globe that can be found in our time-lines:
+Regarding the newspapers’ opinion of Donald Trump, we can see a shift according to the events happening around the globe that can be found in our time-lines, even if in general, newspapers talk very little in a positive way about Trump:
 
-<img src="./trump-2015.jpg" width="800" />
+<img src="./trump-2015.jpg" width="500" />
 
-Here for 2015 we see 
+Here for 2015 we see a small peak of popularity in September but nothing very significant.
 
-<img src="./trump-2016-bis.jpg" width="800" />
+<img src="./trump-2016.jpg" width="500" />
 
-Regarding 2016, 
+Regarding 2016, there is a drop in Trump’s popularity in May-August, around the same time Black Lives Matter happened, which we can suppose to be correlated. Moreover, there is also an popularity peak in March 2016 which is when the Brussels islamist terrorist attacks happened. We can also speculate a correlation here.
+
 
 ### Conclusion
 
@@ -148,8 +149,6 @@ With the data analysis shown above, we can now answer, at least partially, these
 First, we showed that it is very complicated to find events occurring in the world only from quotes in newspapers, even using one of the most performant NLP (natural language processing) models available now-a-days: BERT.
 However, we can still come up with meaningful topics, such as Trump’s election in 2016, Black Lives Matter, Brexit or, very currently, COVID-19.
 
-Then, we can see with sentiment analysis that … 
-
-
+Then, we can see with sentiment analysis that we can correlate how (positively or negatively) newspapers talk about a topic/someone with the events happening around the globe that we also found in the timelines presented above.
 
 Thank you very much for reading ! :)

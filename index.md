@@ -1,10 +1,10 @@
+<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="300" height="200" />
+
 ## Creating an event time-line from 2015 to 2020 using only newspaper quotes
 
 Thank you for visiting our website! We, the ADAventurers, are happy to present the outcome of our project.
 
 The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
-
-<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="300" height="200" />
 
 ### Project context and research questions
 

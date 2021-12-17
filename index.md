@@ -137,7 +137,7 @@ Regarding 2016, there is a drop in Trump’s popularity in May-August, around th
 
 <img src="./trump-2017.jpg" width="500" />
 
-2017 started with a peak in Trump's popularity since he began his functions as president of the United States January 1st 2017. However then, his popularity dropped drastically and kept decreasing.
+2017 started with a peak in Trump's popularity since he began his functions as president of the United States January 1st 2017. However then, his popularity dropped drastically and kept decreasing, especially since in March 2017 Obamacare was repealed by him as found in our 2017 timeline above.
 
 <img src="./trump-2018.jpg" width="500" />
 

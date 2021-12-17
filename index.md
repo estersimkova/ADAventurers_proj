@@ -77,17 +77,17 @@ These topics can be seen to be quite US-centric. However, the newspapers from wh
 
 You can see here the time-line we obtain for each year:
 
-<img src="./timeline-2015.jpg" width="1000" />
+<img src="./timeline-2015.jpg" width="1500" />
 
-<img src="./timeline-2016.jpg" width="1000" />
+<img src="./timeline-2016.jpg" width="1500" />
 
-<img src="./timeline-2017.jpg" width="1000" />
+<img src="./timeline-2017.jpg" width="1500" />
 
-<img src="./timeline-2018.jpg" width="1000" />
+<img src="./timeline-2018.jpg" width="1500" />
 
-<img src="./timeline-2019.jpg" width="1000" />
+<img src="./timeline-2019.jpg" width="1500" />
 
-<img src="./timeline-2020.jpg" width="1000" />
+<img src="./timeline-2020.jpg" width="1500" />
 
 
 

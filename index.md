@@ -1,17 +1,17 @@
-<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="300" height="200" />
-
-## Creating an event time-line from 2015 to 2020 using only newspaper quotes
+# Creating an event time-line from 2015 to 2020 using only newspaper quotes
 
 Thank you for visiting our website! We, the ADAventurers, are happy to present the outcome of our project.
 
 The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
 
-### Project context
+<img src="https://www.epfl.ch/about/overview/wp-content/uploads/2020/07/logo-epfl-1024x576.png" width="300" height="200" />
+
+## Project context
 
 This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West. 
 We were provided with the [Quotebank dataset](https://zenodo.org/record/4277311#.YbntzrvTWV4), containing newspaper quotes from January 2015 to April 2020.
 
-### Research questions
+## Research questions
 
 Using this dataset, the research questions we asked ourselves were the following :
 
@@ -19,23 +19,23 @@ Using this dataset, the research questions we asked ourselves were the following
 
 2. When an important event occurs, does the general sentiment from newspaper quotes regarding the topic evolve ?
 
-### Methods
+## Methods
 
-#### Finding topics from quotes
+### Finding topics from quotes
 
-The Quotebank dataset provides more than 100 millions quotes over 12 years. We decided to focus on the years 2015-2020. For each of these years, we selected a maximum of 100’000 quotes each month. Then, we used the NLP (natural language processing) model [BERTopic](https://github.com/MaartenGr/BERTopic) to extract the topics and associate each quote to a specific topic with a given probability. Using the 20 monthly hottest topics, meaning the ones that have the most quotes associated with them, we looked into the quotes associated with the topic with the most probability.
+The Quotebank dataset provides more than 100 millions quotes over 12 years. We decided to focus on the years 2015-2020. For each of these years, we selected a maximum of 100’000 quotes each month. Then, we used the NLP (natural language processing) model [BERTopic](https://github.com/MaartenGr/BERTopic) to extract the topics and associate each quote to a specific topic with a given probability. Using the 30 monthly hottest topics, meaning the ones that have the most quotes associated with them, we looked into the quotes associated with the topic with the most probability.
 Using this information, we chose for each month the most meaningful topics to be kept.
 Then, we created a script to visually represent the chosen topics on a time-line for every month and also for every year.
 
-#### Analysing the sentiment change before and after an event
+### Analysing the sentiment change before and after an event
 
 To answer the second question, and so to perform sentiment analysis, we used a [fine-tuning algorithm for BERT](https://skimai.com/fine-tuning-bert-for-sentiment-analysis/), training the BERT sentiment classifier with data from Twitter - using 1700 complaining (negative sentiment) and 1700 non-complaining (positive sentiment) tweets. We then passed our quotes, previously regrouped into topics by BERTopic, into the trained BERT sentiment classifier and observed the evolution in percentage of positive vs negative quotes regarding a certain topic, before and after certain events occurred.
 
-### Results
+## Results
 
-#### Time-line creation
+### Time-line creation
 
-##### Topics finding
+#### Topics finding
 
 Two kinds of topics emerged from BERTopic.
 
@@ -71,7 +71,7 @@ We can see a peak in August 2018 when a scandal happened in the country because 
 
 Searching for other names can also give us very interesting insights about the history of a country/topic.
 
-##### Timelines obtained
+#### Timelines obtained
 
 To assess the performance of the time-lines we obtained, we compare the topics we found with the most important events that happened every year according to [Usatoday](https://eu.usatoday.com/story/money/2020/09/06/the-worlds-most-important-event-every-year-since-1920/113604790/) to see if BERTopic caught them. 
 
@@ -112,12 +112,12 @@ For 2019, the Hong-Kong protests were not found, but some important 2019 events 
 For 2020, BERTopic found many events related to COVID19: the first cases in China, the start of the pandemic, the mask crisis and the quarantine. Some other events were also found such as the Australian bush fires in early 2020.
 
 
-#### Sentiment analysis
+### Sentiment analysis
 
 For the sentiment analysis regarding a particular topic before and after a certain event occurred, looking at the obtained time-line, we chose to focus on two topics:
 
-Hong-kong protests in March 2019: with which sentiment (positive/negative) China is mentioned in the media before and after the start of the protests. Indeed, the Chinese government expressed their opposition to the protests and took measures against the protests and their supporters.
-The newspapers’ opinion of Trump from 2015 to 2020, especially before and after his election in November 2016.
+1. Hong-kong protests in March 2019: with which sentiment (positive/negative) China is mentioned in the media before and after the start of the protests. Indeed, the Chinese government expressed their opposition to the protests and took measures against the protests and their supporters.
+2. The newspapers’ opinion of Trump from 2015 to 2020, especially before and after his election in November 2016.
 
 For the sentiment analysis about China in 2019, we can see the plot obtained, with the y-axis being the percentage of quotes talking about China that are positive depending on the month:
 
@@ -139,7 +139,7 @@ Regarding 2016, there is a drop in Trump’s popularity in May-August, around th
 
 2017 started with a peak in Trump's popularity since he began his functions as president of the United States January 1st 2017. However then, his popularity dropped drastically and kept decreasing.
 
-### Conclusion
+## Conclusion
 
 To conclude, let’s go back to the two questions we asked ourselves in the beginning:
 

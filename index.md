@@ -147,6 +147,10 @@ Regarding 2016, there is a drop in Trump’s popularity in May-August, around th
 
 Trump's popularity continued to decrease in 2019, especially in the last few months. In December 2019, it reached a low when the Congress of the United States made an impeachement against him for abuse of power and obstruction of Congress. 
 
+We see that throughout Trump's term as president he faced harsh criticism for the majority of his actions and the attitude towards him only changed slightly for the better when the U.S. feared terrorism or hostility from other nations. While it shifts for the worse consistently, due to outbreaks of racist events and humanitarian rights movements such as the "black lives" matter movement. Finally his reputation suffered the final blow when he revoked obama care and at 2019 he was disliked vividly by many authors of the quotes, who from late October demanded impeachment.
+
+This harsh criticism of Trump displays that significant events affect the ways certain subjects, such as a politician, are perceived by the population.
+
 
 ## Conclusion
 
